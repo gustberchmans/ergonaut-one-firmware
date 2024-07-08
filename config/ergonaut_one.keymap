@@ -11,14 +11,7 @@
 &mt { quick-tap-ms = <200>; };
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        game-layer {
-            if-layers = <0 1>;
-            then-layer = <2>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 
     combos {
         compatible = "zmk,combos";
@@ -34,10 +27,10 @@
 
         default_layer {
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp F    &kp P      &kp G      &kp J          &kp L        &kp U      &kp Y    &kp SEMICOLON  &mt RIGHT_BRACKET LEFT_BRACKET
-&kp LEFT_SHIFT  &kp A  &kp R  &kp S    &kp T      &kp D      &kp H          &kp N        &kp E      &kp I    &kp O          &kp SQT
-&kp LCTRL       &kp Z  &kp X  &kp C    &kp V      &kp B      &kp K          &kp M        &kp COMMA  &kp DOT  &kp FSLH       &kp BACKSLASH
-                              &kp TAB  &kp SPACE  &kp ENTER  &kp BACKSPACE  &lt 1 SPACE  &to 2
+&mt LEFT_WIN ESC  &kp Q  &kp W  &kp F    &kp P      &kp G      &kp J          &kp L        &kp U      &kp Y    &kp SEMICOLON  &mt RIGHT_BRACKET LEFT_BRACKET
+&kp LEFT_SHIFT    &kp A  &kp R  &kp S    &kp T      &kp D      &kp H          &kp N        &kp E      &kp I    &kp O          &kp SQT
+&kp LCTRL         &kp Z  &kp X  &kp C    &kp V      &kp B      &kp K          &kp M        &kp COMMA  &kp DOT  &kp FSLH       &kp BACKSLASH
+                                &kp TAB  &kp SPACE  &kp ENTER  &kp BACKSPACE  &lt 1 SPACE  &tog 2
             >;
         };
 
