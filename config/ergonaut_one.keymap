@@ -11,7 +11,14 @@
 &mt { quick-tap-ms = <200>; };
 
 / {
-    conditional_layers { compatible = "zmk,conditional-layers"; };
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        game-layer {
+            if-layers = <0 1>;
+            then-layer = <2>;
+        };
+    };
 
     combos {
         compatible = "zmk,combos";
@@ -45,10 +52,10 @@
 
         game_layer {
             bindings = <
-&kp ESC  &none  &none  &kp W    &none      &none   &none   &none   &none   &none  &none  &none
-&none    &none  &kp A  &kp S    &kp D      &none   &none   &none   &none   &none  &none  &none
-&none    &none  &none  &none    &none      &none   &none   &none   &none   &none  &none  &none
-                       &kp TAB  &kp SPACE  &kp F3  &trans  &trans  &trans
+&kp ESC         &kp Q  &kp W  &kp E    &kp R      &kp T   &kp Y   &kp U   &kp I      &kp O       &kp P          &kp LEFT_BRACKET
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D    &kp F      &kp G   &kp H   &kp J   &kp K      &kp L       &kp SEMICOLON  &kp SQT
+&kp LCTRL       &kp Z  &kp X  &kp C    &kp V      &kp B   &kp N   &kp M   &kp COMMA  &kp PERIOD  &kp SLASH      &kp BACKSLASH
+                              &kp TAB  &kp SPACE  &kp F3  &kp F4  &kp F2  &kp F5
             >;
         };
     };
