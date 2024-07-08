@@ -13,6 +13,15 @@
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Delete {
+            bindings = <&kp DEL>;
+            key-positions = <12 39>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
