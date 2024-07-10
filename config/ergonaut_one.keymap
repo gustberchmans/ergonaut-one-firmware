@@ -19,6 +19,7 @@
         Delete {
             bindings = <&kp DEL>;
             key-positions = <12 39>;
+            layers = <0>;
         };
     };
 
