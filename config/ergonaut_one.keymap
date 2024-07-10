@@ -28,10 +28,10 @@
 
         default_layer {
             bindings = <
-&mt LEFT_WIN ESC  &kp Q           &kp W           &kp F             &kp P               &kp G      &kp J          &kp L                &kp U              &kp Y            &kp SEMICOLON    &mt RIGHT_BRACKET LEFT_BRACKET
-&kp LEFT_SHIFT    &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp D      &kp H          &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &kp SQT
-&kp LCTRL         &kp Z           &kp X           &kp C             &kp V               &kp B      &kp K          &kp M                &kp COMMA          &kp DOT          &kp FSLH         &kp BACKSLASH
-                                                  &kp TAB           &kp SPACE           &kp ENTER  &kp BACKSPACE  &lt 1 SPACE          &tog 2
+&mt LEFT_WIN ESC  &kp Q           &kp W           &kp F             &kp P               &kp G      &mt INSERT J       &mt PAGE_UP L     &mt UP_ARROW U    &mt PAGE_DOWN Y    &kp SEMICOLON  &mt RIGHT_BRACKET LEFT_BRACKET
+&kp LEFT_SHIFT    &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp D      &mt PRINTSCREEN H  &mt LEFT_ARROW N  &mt DOWN_ARROW E  &mt RIGHT_ARROW I  &kp O          &kp SQT
+&kp LCTRL         &kp Z           &kp X           &kp C             &kp V               &kp B      &mt SCROLLLOCK K   &mt HOME M        &mt DELETE COMMA  &mt END PERIOD     &kp FSLH       &kp BACKSLASH
+                                                  &kp TAB           &kp SPACE           &kp ENTER  &kp BACKSPACE      &lt 1 SPACE       &tog 2
             >;
         };
 
