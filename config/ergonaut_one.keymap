@@ -20,19 +20,19 @@
 
         default_layer {
             bindings = <
-&mt LEFT_WIN ESC  &mt C_BRI_UP Q   &mt K_PREVIOUS W  &mt PAUSE_BREAK F    &mt K_NEXT P        &kp G      &mt INSERT J       &mt PAGE_UP L     &mt UP_ARROW U    &mt PAGE_DOWN Y    &kp SEMICOLON  &mt RIGHT_BRACKET LEFT_BRACKET
-&kp LEFT_SHIFT    &mt LEFT_GUI A   &mt LEFT_ALT R    &mt LEFT_SHIFT S     &mt LEFT_CONTROL T  &kp D      &mt PRINTSCREEN H  &mt LEFT_ARROW N  &mt DOWN_ARROW E  &mt RIGHT_ARROW I  &kp O          &kp SQT
-&kp LCTRL         &mt C_BRI_DEC Z  &mt C_MUTE X      &mt C_VOLUME_DOWN C  &mt C_VOLUME_UP V   &kp B      &mt SCROLLLOCK K   &mt HOME M        &mt DELETE COMMA  &mt END PERIOD     &kp FSLH       &kp BACKSLASH
-                                                     &kp TAB              &kp SPACE           &kp ENTER  &kp BACKSPACE      &lt 1 SPACE       &tog 2
+&mt LEFT_WIN ESC  &kp C_BRI_UP    &mt K_PREVIOUS W  &mt PAUSE_BREAK F    &mt K_NEXT P        &kp G      &mt INSERT J       &mt PAGE_UP L     &mt UP_ARROW U    &mt PAGE_DOWN Y    &kp SEMICOLON  &mt RIGHT_BRACKET LEFT_BRACKET
+&kp LEFT_SHIFT    &mt LEFT_GUI A  &mt LEFT_ALT R    &mt LEFT_SHIFT S     &mt LEFT_CONTROL T  &kp D      &mt PRINTSCREEN H  &mt LEFT_ARROW N  &mt DOWN_ARROW E  &mt RIGHT_ARROW I  &kp O          &kp SQT
+&kp LCTRL         &kp Z           &mt C_MUTE X      &mt C_VOLUME_DOWN C  &mt C_VOLUME_UP V   &kp B      &mt SCROLLLOCK K   &mt HOME M        &mt DELETE COMMA  &mt END PERIOD     &kp FSLH       &kp BACKSLASH
+                                                    &kp TAB              &kp SPACE           &kp ENTER  &kp BACKSPACE      &lt 1 SPACE       &tog 2
             >;
         };
 
         number_layer {
             bindings = <
-&mt LGUI F1   &kp F2    &kp F3  &kp F4          &kp F5    &kp F6     &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-&kp GRAVE     &kp EXCL  &kp AT  &kp HASH        &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &mt EQUAL MINUS
-&kp LEFT_ALT  &kp N1    &kp N2  &kp N3          &kp N4    &kp N5     &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &kp RALT
-                                &kp LEFT_SHIFT  &trans    &trans     &trans     &trans    &trans
+&mt LGUI F1   &kp F2    &kp F3  &kp F4          &kp F5    &kp F6     &kp F7              &kp F8             &kp F9              &kp F10            &kp F11   &kp F12
+&kp GRAVE     &kp EXCL  &kp AT  &kp HASH        &kp DLLR  &kp PRCNT  &mt C_BRI_UP CARET  &mt C_MUTE AMPS    &mt C_VOL_DN STAR   &mt C_VOL_UP LPAR  &kp RPAR  &mt EQUAL MINUS
+&kp LEFT_ALT  &kp N1    &kp N2  &kp N3          &kp N4    &kp N5     &mt C_BRI_DEC N6    &mt C_PREVIOUS N7  &mt PAUSE_BREAK N8  &mt C_NEXT N9      &kp N0    &kp RALT
+                                &kp LEFT_SHIFT  &trans    &trans     &trans              &trans             &trans
             >;
         };
 
