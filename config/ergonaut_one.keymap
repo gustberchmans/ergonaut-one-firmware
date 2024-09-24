@@ -20,10 +20,10 @@
 
         default_layer {
             bindings = <
-&mt LEFT_WIN ESC  &kp C_BRI_UP    &mt K_PREVIOUS W  &mt PAUSE_BREAK F    &mt K_NEXT P        &kp G      &mt INSERT J       &mt PAGE_UP L     &mt UP_ARROW U    &mt PAGE_DOWN Y    &kp SEMICOLON  &mt RIGHT_BRACKET LEFT_BRACKET
-&kp LEFT_SHIFT    &mt LEFT_GUI A  &mt LEFT_ALT R    &mt LEFT_SHIFT S     &mt LEFT_CONTROL T  &kp D      &mt PRINTSCREEN H  &mt LEFT_ARROW N  &mt DOWN_ARROW E  &mt RIGHT_ARROW I  &kp O          &kp SQT
-&kp LCTRL         &kp Z           &mt C_MUTE X      &mt C_VOLUME_DOWN C  &mt C_VOLUME_UP V   &kp B      &mt SCROLLLOCK K   &mt HOME M        &mt DELETE COMMA  &mt END PERIOD     &kp FSLH       &kp BACKSLASH
-                                                    &kp TAB              &kp SPACE           &kp ENTER  &kp BACKSPACE      &lt 1 SPACE       &tog 2
+&mt LEFT_WIN ESC  &kp Q           &kp W           &kp F             &kp P               &kp G      &mt INSERT J       &mt PAGE_UP L     &mt UP_ARROW U    &mt PAGE_DOWN Y    &kp SEMICOLON  &mt RIGHT_BRACKET LEFT_BRACKET
+&kp LEFT_SHIFT    &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp D      &mt PRINTSCREEN H  &mt LEFT_ARROW N  &mt DOWN_ARROW E  &mt RIGHT_ARROW I  &kp O          &kp SQT
+&kp LCTRL         &kp Z           &kp X           &kp C             &kp V               &kp B      &mt SCROLLLOCK K   &mt HOME M        &mt DELETE COMMA  &mt END PERIOD     &kp FSLH       &kp BACKSLASH
+                                                  &kp TAB           &kp SPACE           &kp ENTER  &kp BACKSPACE      &lt 1 SPACE       &tog 2
             >;
         };
 
